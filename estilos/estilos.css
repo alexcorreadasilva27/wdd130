@@ -11,7 +11,7 @@ main img {
     background-color: #eee;
     color: #333;
     text-align: center;
-    box-shadow: #eee;
+    box-shadow: 1px 1px 1px 1px #eee;
 }
 
 aside {
