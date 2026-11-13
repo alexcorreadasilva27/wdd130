@@ -41,7 +41,11 @@ article {
     padding: 8px;
 }
 
-.socialmedia a {
+nav a / footer a {
+    text-decoration: none;
+}
+
+.rede-sociais a {
     text-decoration: none;
 }
 
