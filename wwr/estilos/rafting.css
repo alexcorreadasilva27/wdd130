@@ -74,3 +74,7 @@ header {
     background-color: var(--cor-primaria);
     color: var(--cor-destaque2);
 }
+
+.hero article h1 {
+    position: absolute;
+}
