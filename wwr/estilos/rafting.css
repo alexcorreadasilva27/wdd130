@@ -41,7 +41,11 @@ article {
     padding: 8px;
 }
 
-nav a / footer a {
+nav a {
+    text-decoration: none;
+}
+
+footer a {
     text-decoration: none;
 }
 
