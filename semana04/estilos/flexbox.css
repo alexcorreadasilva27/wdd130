@@ -1,6 +1,7 @@
 body {
     font-family: Helvetica, Arial, sans-serif;
     margin: 1rem;
+    border: white;
 }
 
 .flex-container {
@@ -8,6 +9,9 @@ body {
     background-color: lightyellow;
     display: flex;
     flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
 }
 
 .flex-item {
@@ -17,10 +21,21 @@ body {
     padding: 0.5rem;
     background-color: #bbb;
     color: #333;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
 }
 
 .item1 {
     min-height: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border: #333;
 }
 
 .item2 {
