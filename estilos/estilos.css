@@ -12,10 +12,6 @@
 
 }
 
-main {
-    /*  */
-}
-
 main img {
     float: right;
     width: var(--largura-imagem);
