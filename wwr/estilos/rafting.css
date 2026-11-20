@@ -3,6 +3,8 @@
     --cor-secundaria: #f4a261;
     --cor-destaque1: #264653;
     --cor-destaque2: #e9c46a;
+    --cor-branca: #fff;
+    --cor-fundo-hero: #1e4653d9;
     --fonte-titulo: "Times New Roman", "Georgia", serif;
     --fonte-body: Arial, Helvetica, sans-serif;
 }
@@ -83,8 +85,8 @@ section {
     top: 20px;
     width: 100%;
     padding-inline: 16px;
-    background-color: rgba(30, 70, 83, 0.85);
-    color: #fff;
+    background-color: var(--cor-fundo-hero);
+    color: var(--cor-branca);
 }
 
 .hero article {
@@ -93,8 +95,8 @@ section {
     left: 20px;
     right: 20%;
     padding: 16px;
-    background-color: rgba(30, 70, 83, 0.85);
-    color: #fff;
+    background-color: var(--cor-fundo-hero);
+    color: var(--cor-branca);
 }
 
 .hero article img {
