@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos/formulario-pesquisa.css">
+    <title>Formulário de Pesquisa</title>
+</head>
+
+<body>
+    <main>
+        <form>
+            <div class="item-formulario coluna2">
+                <label for="nomecompleto">Nome Completo:</label>
+                <input type="text" id="nome-completo" name="nome-completo" required>
+            </div>
+            <div class="item-formulario coluna2">
+                <label for="emaildousuario">Email:</label>
+                <input type="text" name="email-do-usuario" id="email-do-usuario" required>
+            </div>
+            <div class="item-formulario coluna1">
+                <label for="navegador">Qual é o seu navegador de internet favorito? </label>
+                <select name="navegador" id="navegador">
+                    <option value="chrome">Chrome</option>
+                    <option value="firefox">firefox</option>
+                    <option value="edge">Edge</option>
+                    <option value="brave">Brave</option>
+                    <option value="other">Other</option>
+            </div>
+            </select>
+            <div class="item-formulario coluna1">
+                <label for="pet">Você tem um bichinho de estimação em casa?</label>
+                <input type="checkbox" id="pet" name="pet">
+            </div>
+            <label for="Feedback">Liste os lugares onde você morou:</label>
+            <textarea name="Feedback" id="Feedback" rows="4"
+              placeholder="Stillwater Flórida, Amsterdã Holanda, Tibuktu Mali"></textarea>
+            <button type="submit">Enviar Pesquisa</button>
+        </form>
+    </main>
+</body>
+<footer>
+
+</footer>
+
+</html>
