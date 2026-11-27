@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fale Conosco - Água Brava Rafting</title>
     <meta name="description"
-      content="uma página sobre Rafting, contendo fotos, sobre nós, redes sociais, passeios e fale conosco">
+      content="Entre em contato com a Água Brava Rafting. Tire suas dúvidas, faça reservas ou envie sugestões">
     <meta name="author" content="Alex C da Silva">
     <link rel="stylesheet" href="estilos/rafting.css">
 </head>
@@ -22,7 +22,56 @@
         </nav>
     </header>
     <main>
-        <h1>Água Brava Rafting</h1>
+        <section class="info-empresa">
+            <h1>Água Brava Rafting</h1>
+            <p>123 rua Principal do Rio</p>
+            <p>Foz do Iguaçu, Paraná</p>
+            <p>+55 45 99999-9999</p>
+            <p>info@coreiras.com</p>
+        </section>
+
+        <section class="contato-grid">
+            <div class="mapa">
+                <iframe
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d115219.95758272295!2d-54.63318195!3d-25.5163356!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94f690eb7432a367%3A0x883a44a756f75031!2sFoz%20do%20Igua%C3%A7u%2C%20PR!5e0!3m2!1spt-BR!2sbr!4v1700000000000!5m2!1spt-BR!2sbr"
+                  allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
+                  title="Localização da Água Brava Rafting"></iframe>
+            </div>
+            <form action="#" method="post" class="formulario-contato">
+                <div class="campo-linha">
+                    <label for="nome">Nome</label>
+                    <input type="text" id="nome" name="nome" placeholder="Digite Aqui" required>
+                </div>
+
+                <div class="campo-linha">
+                    <label for="email">E-mail</label>
+                    <input type="email" id="email" name="email">
+                </div>
+
+                <div class="campo-linha">
+                    <span class="label-grupo">Propósito da Mensagem</span>
+                    <div class="opcoes-radio">
+                        <label><input type="radio" name="proposito" value="duvida" checked>Dúvida
+                            Geral</label>
+                        <label><input type="radio" name="proposito" value="reserva">Pergunta sobre
+                            Reserva</label>
+                        <label><input type="radio" name="proposito"
+                              value="sugestao">Sugestão</label>
+                    </div>
+                </div>
+                <div class="campo-coluna">
+                    <label for="mensagem">Mensagem</label>
+                    <textarea name="mensagem" id="mensagem" rows="4" placeholder="Digite Aqui"
+                      required></textarea>
+                </div>
+
+                <label class="checkbox-newsletter">
+                    <input type="checkbox" name="newsletter">Por favor, me inscreva no newsletter
+                    mensal
+                </label>
+                <button type="submit">Entrar em contato</button>
+            </form>
+        </section>
     </main>
     <footer>
         <p>© 2026, Água Brava Rafting, Alex C da Silva</p>
