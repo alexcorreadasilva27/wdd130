@@ -173,7 +173,7 @@ section {
 .label-grupo,
 .campo-coluna label {
     font-weight: bold;
-    font-size: 095.rem;
+    font-size: 0.95rem;
 }
 
 .campo-linha input[type="text"],
